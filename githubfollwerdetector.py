@@ -127,3 +127,6 @@ if st.button("Scrape Followers"):
     # Download buttons for HTML and XLSX
     st.markdown(get_table_download_link(df, "HTML"), unsafe_allow_html=True)
     st.markdown(get_table_download_link(df, "XLSX"), unsafe_allow_html=True)
+
+# Add a hyperlink to the external URL
+st.markdown("[Visit GitHub Assignment Detector](https://githuubassignmentdetector.streamlit.app/)")
